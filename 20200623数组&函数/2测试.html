@@ -20,35 +20,35 @@
         { id: 1009, icon: "img/9.png", name: "餐饮8", num: 1, price: 90 },
         { id: 1010, icon: "img/10.png", name: "餐饮9", num: 1, price: 100 },
       ];
-    //   for (var i = 0, len = data.length; i < len; i++) {
-    //     document.write(`
-    //     <div>
-    //   <img src="${data[i].icon}" alt="" />
-    //   <div>
-    //     <span>${data[i].name}</span>
-    //     <span>${data[i].num}</span>
-    //     <span>${data[i].price}</span>
-    //   </div>
-    // </div>
+      for (var i = 0, len = data.length; i < len; i++) {
+        document.write(`
+        <div>
+      <img src="${data[i].icon}" alt="" />
+      <div>
+        <span>${data[i].name}</span>
+        <span>${data[i].num}</span>
+        <span>${data[i].price}</span>
+      </div>
+    </div>
           
-    //       `);
-    //   }
-
-
-      var obj = {
-          name:'yq',
-          img:"dfjlqwejroqwj4r",
-          age:12
+          `);
       }
+
+
+      // var obj = {
+      //     name:'yq',
+      //     img:"dfjlqwejroqwj4r",
+      //     age:12
+      // }
       
-      // 'name:"yq",img:"http://www.1.png",age:12'
+      // // 'name:"yq",img:"http://www.1.png",age:12'
 
-      var res = ''
-      for(var x in obj){
-         res += (x+":"+obj[x]+",")
-      }
-      res = res.slice(0,res.length-1)
-      console.log(res)
+      // var res = ''
+      // for(var x in obj){
+      //    res += (x+":"+obj[x]+",")
+      // }
+      // res = res.slice(0,res.length-1)
+      // console.log(res)
     </script>
   </body>
 </html>
