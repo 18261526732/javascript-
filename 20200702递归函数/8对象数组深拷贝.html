@@ -16,9 +16,9 @@
         // JSON  是对象 作用处理json格式的数据 其实就是数组和对象 
         // JSON.stringify 将数据或者对象，变为 json 字符串 并【返回字符串】
         var dataStr = JSON.stringify(data)
-        console.log(dataStr)
-        console.log(typeof dataStr)
-        console.log(dataStr.slice)
+        console.log(dataStr)//[{"name":"ya","list":[{"name":"dddd"}]}]
+        console.log(typeof dataStr)//string
+        console.log(dataStr.slice)//ƒ slice() { [native code] }
 
         // JSON.parse() 将json 字符串转化为 数组或者对象；并【返回】数组或者对象
         var res = JSON.parse(dataStr)

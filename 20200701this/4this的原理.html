@@ -21,7 +21,10 @@
         // 原理二： 结合作用域看this 
         // 问题：为什么return 返回伪 对象 数组  函数  this 就不指向 new 实例化的对象
         // 函数本身不能作为构造函数； new 类似失效。
-        // new创建一个对象，就是将构造函数的作用域赋给了新对象;所以this 指向了这个对象，return {}, [],function 之后；改变了作用域，作用域赋值给了 {} function [] 
+        
+        // new创建一个对象，就是将构造函数的作用域赋给了新对象;
+        // 所以this 指向了这个对象，return {}, [],function 之后；
+        // 改变了作用域，作用域赋值给了 {} function [] 
         // 所以this指向{} [] function  
 
         var name = 'liuliu'
